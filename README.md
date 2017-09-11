@@ -17,7 +17,7 @@
 
 ```php
 use Silex\Application;
-use xmarcos\Silex\ElasticsearchServiceProvider
+use Symfonyx\Silex\ElasticsearchServiceProvider
 
 $app = new Application();
 $app['elasticsearch.params'] = [

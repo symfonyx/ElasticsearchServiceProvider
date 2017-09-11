@@ -6,7 +6,8 @@
     "keywords": [
         "silex",
         "elastic",
-        "elasticsearch"
+        "elasticsearch",
+        "php-elasticsearch"
     ],
     "authors": [
     	{
@@ -14,6 +15,8 @@
             "email": "zetdev@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": "^7.0",
         "silex/silex": "~2.0",
